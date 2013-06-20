@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stripe" >
+
+        <!-- With quill
+        <ImageButton
+            android:id="@+id/ibtnQuill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:onClick="onWriteClicked"
+            android:src="@drawable/quill" />
+
+        <ImageButton
+            android:id="@+id/ibtnRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/ibtnQuill"
+            android:background="@null"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:onClick="onRefreshClicked"
+            android:src="@drawable/refresh" />
+		-->
+		
+		<ImageButton
+            android:id="@+id/ibtnRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:onClick="onRefreshClicked"
+            android:src="@drawable/refresh" />
+		
+		
+        <ImageButton
+            android:id="@+id/ibtnBubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:onClick="onBubbleClicked"
+            android:src="@drawable/bubble" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignRight="@id/ibtnRefresh"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgvListBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/emptylist" />
+
+        <ListView
+            android:id="@+id/lvMessages"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+
+    </RelativeLayout>
+
+</LinearLayout>
