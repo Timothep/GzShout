@@ -6,4 +6,4 @@ Here's a screenshot of the app:
 ![Screenshot](http://histrio.net/geekzone/gzshoutbox/screenshot.png)
 
 Historique des packages apk:
-* Package initial après import: [GZ-Shoutbox.apk]()
+* Package initial après import: [GZ-Shoutbox.apk](https://github.com/Timothep/GzShout/blob/master/Apks/GZ-Shoutbox.apk?raw=true)
